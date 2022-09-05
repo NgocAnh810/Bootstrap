@@ -1,0 +1,459 @@
+body {
+  color: #000;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  border-bottom: 1px solid black;
+}
+nav li {
+  margin: 20px;
+  font-weight: bold;
+}
+nav ul {
+  margin-left: 180px;
+}
+nav .society {
+  justify-content: flex-end;
+  font-size: 26px;
+}
+nav .society a {
+  color: #000;
+}
+
+.introduce {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.introduce .hot-recipes {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #E7FAFE;
+  border-radius: 30px;
+}
+.introduce .hot-recipes .hot-recipes-tag {
+  width: 156px;
+  height: 45px;
+  background-color: #FFF;
+  border: 1px solid #fff;
+  border-radius: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.introduce .hot-recipes .hot-recipes-tag img {
+  width: 24px;
+  height: 24px;
+}
+.introduce .hot-recipes .hot-recipes-tag p {
+  padding-left: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+.introduce .hot-recipes h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 55px;
+  font-weight: bold;
+}
+.introduce .hot-recipes .gray-color {
+  color: rgba(0, 0, 0, 0.6);
+}
+.introduce .hot-recipes .minutes-tag {
+  background-color: #DBEDF1;
+  border: 1px solid #DBEDF1;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  font-size: 14px;
+  margin-right: 18px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.introduce .hot-recipes .minutes-tag p {
+  color: rgba(0, 0, 0, 0.6);
+  padding-left: 8px;
+}
+.introduce .hot-recipes .info {
+  padding-top: 120px;
+}
+.introduce .hot-recipes .info .info-img {
+  margin-right: -190px;
+  padding-right: 20px;
+}
+.introduce .hot-recipes .info .info-img img {
+  width: 50px;
+}
+.introduce .hot-recipes .info .name {
+  font-weight: 700;
+  font-size: 16px;
+}
+.introduce .hot-recipes .info .gray-color {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.introduce .hot-recipes .info button {
+  width: 200px;
+  height: 60px;
+  background-color: #000;
+  color: #FFF;
+  border-radius: 20px;
+}
+.introduce .chicken-img img {
+  width: 660px;
+  height: 640px;
+}
+
+.categories {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.categories h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.categories button {
+  height: 60px;
+  background-color: #E7FAFE;
+  border: none;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.categories .categories-content {
+  margin-top: 40px;
+}
+.categories .categories-content-dish {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.categories .categories-content-dish p {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.categories img {
+  width: 100px;
+  height: 100px;
+}
+
+.recipes {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.recipes .recipes-head {
+  text-align: center;
+}
+.recipes .recipes-head h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.recipes .recipes-head p {
+  color: rgba(0, 0, 0, 0.6);
+  margin: 30px 0 48px 0;
+}
+.recipes .recipes-content {
+  margin-right: 32px;
+  padding-left: 15px;
+  background-color: #E8FAFD;
+  border-radius: 20px;
+  margin-top: 56px;
+}
+.recipes .recipes-content .recipes-content-img {
+  width: 370px;
+  height: 250px;
+  border-radius: 20px;
+}
+.recipes .recipes-content h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.recipes .recipes-content .recipes-content-bottom {
+  display: flex;
+  padding-bottom: 20px;
+}
+.recipes .recipes-content .recipes-content-bottom .recipes-content-minutes-tag {
+  width: 120px;
+  height: 40px;
+  font-size: 14px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.recipes .recipes-content .recipes-content-bottom .recipes-content-minutes-tag p {
+  color: rgba(0, 0, 0, 0.6);
+  padding-left: 8px;
+}
+.recipes .recipes-content-ads {
+  margin-right: 32px;
+  padding-left: 15px;
+  border-radius: 20px;
+  margin-top: 56px;
+}
+.recipes .recipes-content-ads .recipes-content-img-ads {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.learnmore {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.learnmore h1 {
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 170px;
+}
+.learnmore p {
+  color: rgba(0, 0, 0, 0.6);
+  margin: 30px 0 48px 0;
+}
+.learnmore button {
+  width: 200px;
+  height: 60px;
+  background-color: #000;
+  color: #FFF;
+  border-radius: 20px;
+  margin-top: 94px;
+}
+.learnmore img {
+  border-radius: 20px;
+}
+
+.instagram {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  background-image: linear-gradient(#FFF, #E7F9FD);
+}
+.instagram .instagram-head {
+  text-align: center;
+}
+.instagram .instagram-head h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.instagram .instagram-head p {
+  color: rgba(0, 0, 0, 0.6);
+  margin: 30px 0 80px 0;
+}
+.instagram .instagram-content-head {
+  display: flex;
+  margin: 0 17px 0 17px;
+  align-items: center;
+  background-color: #E7F9FD;
+}
+.instagram .instagram-content-head b {
+  font-size: 13px;
+}
+.instagram .instagram-content-head p {
+  margin: 0;
+  font-size: 11px;
+}
+.instagram .instagram-content-head .avatar-shop {
+  width: 36px;
+  padding-right: 8px;
+  margin-left: 8px;
+}
+.instagram .instagram-content-head .more {
+  width: 14px;
+  margin-left: 146px;
+}
+.instagram .instagram-content-interactive {
+  display: flex;
+  margin: 0px 17px 0px 17px;
+  padding: 8px 0 8px 0;
+  justify-content: space-between;
+  background-color: #E7F9FD;
+}
+.instagram .instagram-content-interactive img {
+  padding-left: 8px;
+}
+.instagram .instagram-content-interactive .save-img {
+  padding-right: 8px;
+}
+.instagram .instagram-content-bottom {
+  text-align: initial;
+  margin: 0 17px 0 17px;
+  font-size: 12px;
+  background-color: #E7F9FD;
+  padding-left: 8px;
+}
+.instagram .instagram-content-bottom p {
+  margin: 0;
+  color: #000;
+}
+.instagram .instagram-content-bottom .instagram-content-bottom-likeinfo {
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
+.instagram .instagram-content-bottom img {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+.instagram .instagram-content-bottom .instagram-content-bottom-status .date {
+  color: rgba(0, 0, 0, 0.4);
+  padding-top: 8px;
+}
+.instagram .instagram-button button {
+  color: #FFF;
+  background-color: #000;
+  width: 230px;
+  height: 60px;
+  border-radius: 20px;
+  margin: 80px 0 80px 0;
+}
+
+.more-recipes {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.more-recipes .more-recipes-head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 80px;
+}
+.more-recipes .more-recipes-head h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.more-recipes .more-recipes-head p {
+  color: rgba(0, 0, 0, 0.6);
+  padding-left: 158px;
+}
+.more-recipes .more-recipes-content h2 {
+  margin: 17px 17px 0 17px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+.more-recipes .more-recipes-content .text-start {
+  margin: 0 34px 0 0;
+}
+.more-recipes .more-recipes-content .text-four {
+  margin: 0 0 0 34px;
+}
+.more-recipes .more-recipes-content .float-start {
+  margin-bottom: 17px;
+}
+.more-recipes .more-recipes-content .float-end {
+  margin-bottom: 17px;
+}
+.more-recipes .more-recipes-content .text-mid {
+  margin-left: 17px;
+}
+.more-recipes .more-recipes-content-bottom {
+  display: flex;
+  padding-bottom: 20px;
+}
+.more-recipes .more-recipes-content-bottom .more-recipes-content-minutes {
+  width: 120px;
+  height: 40px;
+  font-size: 14px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.more-recipes .more-recipes-content-bottom .more-recipes-content-minutes p {
+  color: rgba(0, 0, 0, 0.6);
+  padding-left: 8px;
+}
+
+.subcribe-card {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  background-color: #E7F9FD;
+  border-radius: 40px;
+  padding: 0;
+}
+.subcribe-card h1 {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 32px;
+}
+.subcribe-card p {
+  color: rgba(0, 0, 0, 0.6);
+  padding-top: 30px;
+}
+.subcribe-card .subcribe-card-content {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.subcribe-card .subcribe-card-content img {
+  border-radius: 40px;
+}
+.subcribe-card .subcribe-card-content .subcribe-card-content-button {
+  width: 480px;
+  position: relative;
+  padding-bottom: 158px;
+}
+.subcribe-card .subcribe-card-content .subcribe-card-content-button button {
+  position: absolute;
+  border-radius: 20px;
+  right: 12px;
+  z-index: 2;
+  border: none;
+  top: 10px;
+  height: 60px;
+  width: 160px;
+  cursor: pointer;
+  color: white;
+  background-color: #000;
+  transform: translateX(2px);
+}
+.subcribe-card .subcribe-card-content .subcribe-card-content-button input {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  outline: none;
+  height: 80px;
+  border-radius: 20px;
+  border: 0;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer p {
+  padding-top: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+footer .nav-item a {
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
